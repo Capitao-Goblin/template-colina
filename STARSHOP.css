@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --bg-color: black;
+    --text-color: #fff;
+    --main-color: red;
+}
+
+body {
+    min-height: 100vh;
+    background: var(--text-color);
+    color: var(--text-color);
+}
+
+.bg-color{
+    background-color: var(--bg-color);
+}
+
+.nav-color{
+    background-color: var(--bg-color);
+}
+
+header{
+    width: 100%;
+    height: 17vh;
+    margin-top: -1rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background: transparent;
+    transition: all .50s ease;
+}
+
+/*
+.pesquisa{
+    padding-left: 2rem;
+}
+*/
+
+/*
+.logo {
+    display: flex;
+    align-items: center;
+}
+*/
+
+.logo img{
+    padding-top: 1rem;
+    margin-left: -3rem;
+    width: 285px;
+    height: 223px;
+}
+
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: -3rem;
+}
+
+
+.nav1 a {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all .50s ease;
+    font-size: 13px;
+}
+
+.nav1 a:hover {
+    color: var(--main-color);
+}
+
+.nav1 a.active {
+    color: var(--main-color);
+}
+
+.nav-icon{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-left: 58%;
+    font-size: 1.8rem;
+    gap: 1rem;
+}
+
+.nav-icon i{
+    color: var(--text-color);
+    font-weight: 500;
+    transition: all .50s ease;
+}
+
+.nav3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav3 a{
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 30px;
+    transition: all .50s ease;
+}
+
+#img-fundo{
+    height: 100%;
+    width: 100%;
+}
+
+span .btn{
+    margin-left: 35%;
+    cursor: pointer;
+    margin-left: 0rem;
+    margin-top: 0rem;
+}
+
+
+
+
+
+.text-last {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
+
+.text-last h1{
+    font-size: 16px;
+}
+
+
+.coisas-final{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .coisas-final img{
+    width: 285px;
+    height: 223px;
+} */
+
+.nav4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    font-size: 13px;
+    margin-right: 10rem;
+}
+
+.nav4 li a{
+    color: var(--bg-color);
+}
+
+#btn-email{
+    margin-right: 4rem;
+    display: flex;
+}
+
+
+/* login */
+
+.text-login h1{
+    color: var(--bg-color);
+    font-size: 23px;
+    text-align: center;
+}
+
+.text-login p{
+    color: #69727b;
+    font-size: 13px;
+    text-align: center;
+}
+
+.text-login a{
+    color: #69727b;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-center a{
+    color: #3d4246;
+}
+
+.btn{
+    background-color: black;
+    color: var(--text-color);
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 13px;
+    display: inline-block;
+    width: auto;
+    margin-top: 1rem;
+}
+
+#costumer_login{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+#costumer_login label{
+    color: #3d4246;
+}
+
+input[type="email" i]{
+    padding-right: 20rem;
+    padding-top: 0.4rem;
+}
+
+input[type="text"i]{
+    padding-right: 20rem;
+    padding-top: 0.4rem;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+}
+
+label{
+    line-height: 2rem;
+}
+
+#criar_conta h1{
+    color: var(--bg-color);
+    font-size: 23px;
+    text-align: center;
+}
+
+#criar_conta p{
+    color: #69727b;
+    font-size: 13px;
+    text-align: center;
+}
+
+p a#costumer_register {
+    background: black;
+    color: #fff;
+    padding: 16px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+#criar_conta {
+    background-color: #f2f2f2;
+    padding: 40px 15px 55px;
+    border-top: #d00000 solid;
+    margin-top: 25px;
+}
+
+.esticarkk{
+    margin-top: 2rem;
+}
+
+/* cadastro */
+
+.text-cad h1{
+    color: var(--bg-color);
+    font-size: 23px;
+    text-align: center;
+}
+
+.text-cad p{
+    color: #69727b;
+    font-size: 13px;
+    text-align: center;
+}
+
+.text-cad a{
+    color: #69727b;
+}
+
+.text-cad .btn{
+    margin-left: 50%;
+}
+
+/* drop */
+
+.new-drop{
+    background-color: #dadddf;
+    color: #3d4246;
+    height: 60px;
+}
+
+.new-drop p{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.drop-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.drop-container img:hover{
+    transform: scale(0.9) translateY(5px);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.drop-itens{
+    background-color: var(--bg-color);
+}
+
+.drop-itens img{
+    width: 250px;
+    height: auto;
+}
+
+.drop-itens p, h6, i{
+    color: var(--main-color);
+}
+
+.drop-itens i{
+    font-size: 23px;
+}
+
+/* wishilist */
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    letter-spacing: .7px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.text-wish{
+    color: #3d4246;
+}
+
+.text-wish h1{
+    font-size: 23px;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.credit-strip {
+    background-color: #f2f2f2;
+    padding: 10px 60px;
+    border-top: #e60000 solid 7px;
+}
+
+.credit-strip img {
+    max-width: 240px;
+}
+
+.credit-strip p {
+    float: right;
+    font-size: 12px;
+    line-height: 28px;
+    color: #69727b;
+}
+
+/* cart */
+
+.empyte-page {
+    padding: 125px 55px;
+    text-align: center;
+    margin-bottom: -7rem;
+}
+
+.empyte-page h1{
+    color: #3d4246;
+}
+
+.empyte-page p{
+    color: #69727b;
+    margin-top: 1rem;
+}
+
+#btn-cart{
+    margin-left: 45%;
+}
+
+#btn-cart i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    font-size: 23px;
+}
